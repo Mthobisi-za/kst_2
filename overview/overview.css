@@ -1,0 +1,138 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+img {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.top-menu {
+    width: 100%;
+    min-height: 10vh;
+    overflow: hidden;
+}
+
+.top-section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-height: 10vh;
+}
+
+.left img {
+    min-width: 150px;
+    max-width: 150px;
+    padding-left: 50px;
+    padding-top: 0px;
+}
+
+.right {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.socials a {
+    background-color: #221F20;
+    max-height: 50px;
+}
+
+.bottom-section {
+    width: 100%;
+    position: relative;
+}
+
+.bottom-section img {
+    padding-left: 50px;
+}
+
+
+.menu {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 14.5% 14.5% 14.5% 14.5% 14.5% 14.5% 14.5%;
+}
+
+.yellow {
+    background-color: #F0BB18;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green {
+    background-color: #1DA261;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    background-color: #EE4326;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divs-menu>div:first-child {
+    min-height: 70px;
+}
+
+.triangle_1 {
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #F0BB18;
+    display: none;
+}
+.triangle_one{
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #F0BB18;
+}
+.triangle_2 {
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #1DA261;
+    display: none;
+}
+
+.triangle_3 {
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #EE4326;
+    display: none;
+}
+
+.top_img{
+    width: 100%;
+    text-align: center;
+}
+.p_left{
+    width: 80%;
+    margin: auto;
+}

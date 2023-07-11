@@ -34,3 +34,9 @@
 .wanky_page_top {
     z-index: 4;
 }
+
+@media (max-width:700px) {
+   .small_t{
+font-size: 16px!important;
+    } 
+}

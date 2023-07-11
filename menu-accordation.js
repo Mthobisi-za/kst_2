@@ -10,7 +10,7 @@ function elementClickedTab(color) {
     document.querySelectorAll('.triangle').forEach(ele => {
         ele.style.display = 'none'
     });
-    document.querySelectorAll('.content-section').forEach(ele => {
+    document.querySelectorAll('.body').forEach(ele => {
         console.log(ele)
         ele.style.display = 'none';
     });
