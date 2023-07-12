@@ -4,10 +4,9 @@ const objMenuLong = [
     { screen: 'two', childrenTriagle: 'triangle_two', elementToDisplay: 'green_first' },
     { screen: 'three', childrenTriagle: 'triangle_three', elementToDisplay: 'red_first' },
     { screen: 'four', childrenTriagle: 'triangle_four', elementToDisplay: 'yellow_second' },
-    { screen: 'five', childrenTriagle: 'triangle_five', elementToDisplay: 'green-content' },
-    { screen: 'six', childrenTriagle: 'triangle_six', elementToDisplay: 'red-content' },
-    { screen: 'seven', childrenTriagle: 'triangle_seven', elementToDisplay: 'red-content' }
-
+    { screen: 'five', childrenTriagle: 'triangle_five', elementToDisplay: 'green_second' },
+    { screen: 'six', childrenTriagle: 'triangle_six', elementToDisplay: 'red_second' },
+    { screen: 'seven', childrenTriagle: 'triangle_seven', elementToDisplay: 'yellow_third' }
 ]
 
 function elementClickedTabLong(tag_name) {
