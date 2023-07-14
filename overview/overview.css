@@ -1,4 +1,4 @@
-body {
+.body_overview {
     padding: 0px;
     margin: 0px;
 }
@@ -9,6 +9,7 @@ img {
     -webkit-user-select: none;
     -ms-user-select: none;
 }
+
 .top-menu {
     width: 100%;
     min-height: 10vh;
@@ -51,10 +52,11 @@ img {
 }
 
 
-.menu {
+.menu_overview {
     width: 100%;
     display: grid;
     grid-template-columns: 14.5% 14.5% 14.5% 14.5% 14.5% 14.5% 14.5%;
+    grid-auto-rows: 1fr;
 }
 
 .yellow {
@@ -296,7 +298,7 @@ img {
     margin-top: -100px!important;
 }
 /* menu */
-.menu{
+.menu_overview{
     grid-template-columns: 50% 50%!important;
 }
 .divs-menu{

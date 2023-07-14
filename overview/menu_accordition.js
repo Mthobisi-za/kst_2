@@ -11,10 +11,10 @@ const objMenuLong = [
 
 function elementClickedTabLong(tag_name) {
     console.log(tag_name);
-    document.querySelectorAll('.triangle').forEach(ele => {
+    document.querySelectorAll('.triangle_overview').forEach(ele => {
         ele.style.display = 'none'
     });
-    document.querySelectorAll('.body').forEach(ele => {
+    document.querySelectorAll('.body_overview').forEach(ele => {
         console.log(ele)
         ele.style.display = 'none';
     });

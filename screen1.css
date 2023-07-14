@@ -58,7 +58,7 @@ body {
     }
 }
 
-.menu {
+.menu_forward {
     width: 100%;
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
@@ -98,7 +98,7 @@ body {
     min-height: 70px;
 }
 
-.triangle_1 {
+.triangle_1_forward {
     margin: auto;
     width: 0;
     height: 0;
@@ -107,7 +107,7 @@ body {
     border-top: 20px solid #F0BB18;
 }
 
-.triangle_2 {
+.triangle_2_forward {
     margin: auto;
     width: 0;
     height: 0;
@@ -117,7 +117,7 @@ body {
     display: none;
 }
 
-.triangle_3 {
+.triangle_3_forward {
     margin: auto;
     width: 0;
     height: 0;

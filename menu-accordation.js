@@ -1,16 +1,16 @@
 const objMenu = [
-    { screen: 'yellow', childrenTriagle: 'triangle_1', elementToDisplay: 'yellow-content' },
-    { screen: 'green', childrenTriagle: 'triangle_2', elementToDisplay: 'green-content' },
-    { screen: 'red', childrenTriagle: 'triangle_3', elementToDisplay: 'red-content' }
+    { screen: 'yellow', childrenTriagle: 'triangle_1_forward ', elementToDisplay: 'yellow-content' },
+    { screen: 'green', childrenTriagle: 'triangle_2_forward ', elementToDisplay: 'green-content' },
+    { screen: 'red', childrenTriagle: 'triangle_3_forward ', elementToDisplay: 'red-content' }
 
 ]
 
 function elementClickedTab(color) {
     console.log(color);
-    document.querySelectorAll('.triangle').forEach(ele => {
+    document.querySelectorAll('.triangle_forward').forEach(ele => {
         ele.style.display = 'none'
     });
-    document.querySelectorAll('.body').forEach(ele => {
+    document.querySelectorAll('.body_forward').forEach(ele => {
         console.log(ele)
         ele.style.display = 'none';
     });
