@@ -3,15 +3,6 @@ body {
     margin: 0px;
 }
 
-img {
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    max-width: 100%;
-}
-
 .top-menu {
     width: 100%;
     min-height: 10vh;
@@ -21,8 +12,7 @@ img {
 .top-section {
     display: grid;
     grid-template-columns: 50% 50%;
-    max-height: 15vh;
-    grid-auto-rows: 1fr;
+    max-height: 10vh;
 }
 
 .left img {
@@ -54,10 +44,24 @@ img {
     padding-left: 50px;
 }
 
-.menu {
+@media (max-width:917px) {
+    .bottom-section img {
+        padding-left: 50px;
+        width: 500px;
+    }
+}
+
+@media (max-width:500px) {
+    .bottom-section img {
+        padding-left: 50px;
+        width: 400px;
+    }
+}
+
+.menu_financials {
     width: 100%;
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 33.33% 33.33% 33.33%;
 }
 
 .yellow {
@@ -91,30 +95,19 @@ img {
 }
 
 .divs-menu>div:first-child {
-    min-height: 80px;
+    min-height: 70px;
 }
 
-.triangle_one_pg {
+.triangle_1_financials {
     margin: auto;
     width: 0;
     height: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid #F0BB18;
-    display: none;
 }
 
-.act_t {
-    margin: auto;
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 20px solid #F0BB18;
-    /* display: none; */
-}
-
-.triangle_two_pg {
+.triangle_2_financials {
     margin: auto;
     width: 0;
     height: 0;
@@ -124,7 +117,7 @@ img {
     display: none;
 }
 
-.triangle_three_pg {
+.triangle_3_financials {
     margin: auto;
     width: 0;
     height: 0;
@@ -134,88 +127,75 @@ img {
     display: none;
 }
 
-.txt {
-    font-size: 21px;
-    font-weight: bold;
-    padding: 5px;
-    font-family: 'Myriad Pro';
-    text-align: center;
-}
-
-@media (max-width:1218px) {
-    .gallery {
-        width: 90%!important;
+@media (max-width:600px) {
+    a svg {
+        height: 30px;
+        width: 30px;
     }
-    .gallery img {
-        width: 80%!important;
+    .logo {
+        max-width: 100%;
     }
-}
-
-@media (max-width:1107px) {
-    .img_flux_d {
-        display: none!important;
+    .bottom-section img {
+        max-width: 100%;
     }
-    .img_flux_p {
-        display: block!important;
-    }
-    .flux_p {
-        font-size: 18px!important;
-    }
-    .flux_title {
-        font-size: 20px!important;
+    .div {
+        font-size: 10px;
+        text-align: center;
     }
 }
 
-@media (max-width:862px) {
-    .gallery img {
-        width: 100%!important;
+@media (max-width:350px) {
+    a svg {
+        height: 20px;
+        width: 20px;
     }
-    .shirk {
-        font-size: 16px!important;
-    }
-    .t_shirk {
-        font-size: 20px!important;
-    }
-}
-
-@media (max-width:778px) {
-    .flux_res {
-        display: grid!important;
-        grid-template-columns: 100%!important;
-    }
-    .img_flux_p,
-    .img_flux_d,
-    .gj {
-        width: 100%!important;
-    }
-    .img_flux_d {
-        display: block!important;
-    }
-    .img_flux_p {
-        display: none!important;
-    }
-    .img_flux_d {
-        width: 100%!important;
-    }
-    .flux_p {
-        padding-top: 20px;
-        padding-top: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .flux_pg {
-        grid-template-columns: 100%!important;
+    .left .logo {
+        width: 10px;
+        max-width: 10px;
     }
 }
 
 
-/* content */
+/* responsive */
 
-@media (max-width:949) {
-    .txt {
-        font-size: 14px!important;
+@media (max-width:1404px) {
+    .mrtop {
+        margin-top: -300px!important;
+    }
+    .mr_bottom {
+        margin-top: -350px!important;
     }
 }
+
+@media (max-width:891px) {
+    .mrtop {
+        margin-top: -200px!important;
+    }
+    .mr_bottom {
+        margin-top: -250px!important;
+    }
+}
+
+@media (max-width:723px) {
+    .mrtop {
+        margin-top: -140px!important;
+    }
+    .mr_bottom {
+        margin-top: -180px!important;
+    }
+}
+
+@media (max-width:510px) {
+    .mrtop {
+        margin-top: -100px!important;
+    }
+    .mr_bottom {
+        margin-top: -140px!important;
+    }
+}
+
+
+/* responsive */
 
 @media (max-width:704px) {
     /* menu */
