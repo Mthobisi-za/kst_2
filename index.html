@@ -2,14 +2,28 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <style>
-        * {
-            font-family: 'Calibri', sans-serif;
+        @font-face {
+            font-family: Calibri;
+            src: url('./fonts/calibrib_bold.ttf');
+            font-weight: bold;
         }
         
-        .links {
-            font-family: 'Myriad Pro', sans-serif!important;
-            font-size: 20px;
+        @font-face {
+            font-family: Calibri;
+            src: url('./fonts/calibril_light.ttf');
+            font-weight: lighter;
+        }
+        
+        @font-face {
+            font-family: Calibri;
+            src: url('./fonts/Calibri.ttf');
+        }
+        
+        * {
+            font-family: 'Calibri'!important;
         }
         
         .full_img_new_latst {
@@ -44,21 +58,21 @@
         <div class="landing page1 wanky_page" data-pageid="1">
             <div class="text-area">
 
-                <img src="./images/Group 3.png" alt="">
+                <img class="animate__animated animate__bounce " src="./images/Group 3.png" alt="" id="fadein">
             </div>
             <div class="menu-tabs">
                 <div class="img-container">
-                    <img src="./images/logo.png" alt="">
+                    <img class="animate__animated animate__bounceInLeft" src="./images/logo.png" alt="">
                 </div>
                 <div class="menu-links">
-                    <a href="#2" onclick="listen(this)" class="links">FORWARD</a>
-                    <a href="#3" onclick="listen(this)" class="links">OVERVIEW OF KST</a>
-                    <a href="#4" onclick="listen(this)" class="links">OUR PEOPLE</a>
-                    <a href="#5" onclick="listen(this)" class="links">PROGRAMME OVERVIEW</a>
-                    <a href="#6" onclick="listen(this)" class="links">PROGRAMME REVIEW</a>
-                    <a href="#7" onclick="listen(this)" class="links">COMMUNICATION</a>
-                    <a href="#5" onclick="listen(this)" class="links">FUNDRAISING AND PARTNERSHIPS</a>
-                    <a href="#8" onclick="listen(this)" class="links">FINANCIALS</a>
+                    <a href="#2" onclick="listen(this)" class="links animate__animated animate__pulse">FOREWORDS</a>
+                    <a href="#3" onclick="listen(this)" class="links animate__animated animate__pulse">OVERVIEW OF KST</a>
+                    <a href="#4" onclick="listen(this)" class="links animate__animated animate__pulse">OUR PEOPLE</a>
+                    <a href="#5" onclick="listen(this)" class="links animate__animated animate__pulse">PROGRAMME OVERVIEW</a>
+                    <a href="#6" onclick="listen(this)" class="links animate__animated animate__pulse">PROGRAMME REVIEW</a>
+                    <a href="#7" onclick="listen(this)" class="links animate__animated animate__pulse">COMMUNICATIONS</a>
+                    <a href="#8" onclick="listen(this)" class="links animate__animated animate__pulse">FUNDRAISING AND PARTNERSHIPS</a>
+                    <a href="#9" onclick="listen(this)" class="links animate__animated animate__pulse">FINANCIALS</a>
                 </div>
             </div>
         </div>
@@ -86,7 +100,7 @@
                     </div>
                 </div>
                 <div class="bottom-section">
-                    <img src="./images/Group 4.png" alt="">
+                    <img class="animate__animated animate__pulse" src="./images/Group 4.png" alt="">
                 </div>
                 <div class="menu_forward">
                     <div class="divs-menu" onclick="elementClickedTab('yellow')">
@@ -113,7 +127,7 @@
                 <div class="vid-section-wrapper">
                     <div class="vid-container">
                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/HnmtHND79a0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <p class="sub-title">TATE MAGOE</p>
+                        <p class="sub-title">TATE MAKGOE</p>
                         <p class="sub-title-2">FREE STATE MEC FOR <br> EDUCATION</p>
                     </div>
                 </div>
@@ -202,7 +216,7 @@
             <div class="top-menu">
                 <div class="top-section">
                     <div class="left">
-                        <a href="#1"><img class="logo" src="../images/KST-New-Logo-removebg-preview.png" alt=""></a>
+                        <a href="#1"><img class="logo" src="./images/KST-New-Logo-removebg-preview.png" alt=""></a>
                     </div>
                     <div class="right socials">
                         <a target="_blank" href="https://www.facebook.com/profile.php?id=100064591605382">
@@ -404,7 +418,7 @@
             <div class="top-menu">
                 <div class="top-section">
                     <div class="left">
-                        <a href="#1"> <img class="logo" src="../images/KST-New-Logo-removebg-preview.png" alt="" /></a>
+                        <a href="#1"> <img class="logo" src="./images/KST-New-Logo-removebg-preview.png" alt="" /></a>
                     </div>
                     <div class="right socials">
                         <a target="_blank" href="https://www.facebook.com/profile.php?id=100064591605382">
@@ -896,7 +910,7 @@
             <div class="top-menu">
                 <div class="top-section">
                     <div class="left">
-                        <a href="#1"> <img class="logo" src="../images/KST-New-Logo-removebg-preview.png" alt="" /></a>
+                        <a href="#1"> <img class="logo" src="./images/KST-New-Logo-removebg-preview.png" alt="" /></a>
                     </div>
                     <div class="right socials">
                         <a target="_blank" href="https://www.facebook.com/profile.php?id=100064591605382">
@@ -937,12 +951,12 @@
                         </div>
                         <div class="div triangle  triangle_2 triangle_three_r"></div>
                     </div>
-                    <div class="divs-menu" onclick="elementClickedProgramm('two')">
-                        <div class="div yellow three txt">
-                            PARTNERSHIPS
-                        </div>
-                        <div class="div triangle  triangle_3 triangle_two_r"></div>
-                    </div>
+                    <!-- <div class="divs-menu" onclick="elementClickedProgramm('two')">
+                            <div class="div yellow three txt">
+                                PARTNERSHIPS
+                            </div>
+                            <div class="div triangle  triangle_3 triangle_two_r"></div>
+                        </div> -->
                 </div>
             </div>
             <div class="body green_programme" style="background-image: url('./assets/green_bg.png');background-position: bottom;background-size: contain;background-repeat: no-repeat;display: block;">
@@ -954,71 +968,71 @@
                     <img src="./programme_overview/assets/des.png" alt="" class="covers four_c">
                 </div>
             </div>
-            <div class="body yellow_programme" style="background-image: url('./programme_overview/assets/\(HR\)KagisoTrust-BNSDPLimpopoLaunch-20190306-051.png');background-position: bottom;background-size: cover;background-repeat: no-repeat;display: none;">
-                <div style="width: 100%;margin: auto;margin-top: -20px;padding-top: 50px;width: 80%;margin-left: auto;margin-right: auto;" class="d_top">
-                    <p class="t_t" style="font-size: 60px;color: #000000;font-weight: bold;padding: 0px;font-family: Myriad Pro;margin: 0px;">FUNDRAISING AND PARTNERSHIPS</p>
-                    <br> <br> <br> <br>
-                    <div class="gl" style="display: grid;grid-template-columns: 33.33% 33.33% 33.33%;">
-                        <div style="text-align: center;">
-                            <img style="max-width: 100%;" src="./programme_overview/assets/Group 8.png" alt="">
+            <!-- <div class="body yellow_programme" style="background-image: url('./programme_overview/assets/\(HR\)KagisoTrust-BNSDPLimpopoLaunch-20190306-051.png');background-position: bottom;background-size: cover;background-repeat: no-repeat;display: none;">
+                    <div style="width: 100%;margin: auto;margin-top: -20px;padding-top: 50px;width: 80%;margin-left: auto;margin-right: auto;" class="d_top">
+                        <p class="t_t" style="font-size: 60px;color: #000000;font-weight: bold;padding: 0px;font-family: Myriad Pro;margin: 0px;">FUNDRAISING AND PARTNERSHIPS</p>
+                        <br> <br> <br> <br>
+                        <div class="gl" style="display: grid;grid-template-columns: 33.33% 33.33% 33.33%;">
+                            <div style="text-align: center;">
+                                <img style="max-width: 100%;" src="./programme_overview/assets/Group 8.png" alt="">
+                            </div>
+                            <div style="text-align: center;">
+                                <img style="max-width: 100%;" src="./programme_overview/assets/Group 7.png" alt="">
+                            </div>
+                            <div style="text-align: center;">
+                                <img style="max-width: 100%;" src="./programme_overview/assets/Group 6.png" alt="">
+                            </div>
                         </div>
-                        <div style="text-align: center;">
-                            <img style="max-width: 100%;" src="./programme_overview/assets/Group 7.png" alt="">
-                        </div>
-                        <div style="text-align: center;">
-                            <img style="max-width: 100%;" src="./programme_overview/assets/Group 6.png" alt="">
-                        </div>
-                    </div>
-                    <br> <br>
-                    <div class="gl" style="display: grid;grid-template-columns: 50% 50%;">
-                        <div style="text-align: right;">
-                            <img style="max-width: 100%;" src="./programme_overview/assets/Group 9.png" alt="">
-                        </div>
-                        <div style="text-align: left;">
-                            <img style="max-width: 100%;" src="./programme_overview/assets/Group 10.png" alt="">
-                        </div>
+                        <br> <br>
+                        <div class="gl" style="display: grid;grid-template-columns: 50% 50%;">
+                            <div style="text-align: right;">
+                                <img style="max-width: 100%;" src="./programme_overview/assets/Group 9.png" alt="">
+                            </div>
+                            <div style="text-align: left;">
+                                <img style="max-width: 100%;" src="./programme_overview/assets/Group 10.png" alt="">
+                            </div>
 
+                        </div>
+                        <div class="glful" style="display: none;grid-template-columns: 50% 50%;">
+                            <div style="text-align: center;">
+                                <img style="max-width: 100%;" src="./programme_overview/assets/Group 8.png" alt="">
+                            </div>
+                            <div style="text-align: center;">
+                                <img style="max-width: 100%;" src="./programme_overview/assets/Group 7.png" alt="">
+                            </div>
+                            <div style="text-align: center;">
+                                <img style="max-width: 100%;" src="./programme_overview/assets/Group 6.png" alt="">
+                            </div>
+                            <div style="text-align: right;">
+                                <img style="max-width: 100%;" src="./programme_overview/assets/Group 9.png" alt="">
+                            </div>
+                            <div style="text-align: left;">
+                                <img style="max-width: 100%;" src="./programme_overview/assets/Group 10.png" alt="">
+                            </div>
+                        </div>
+                    </div> <br> <br> <br>
+                    <div class="contain_yellow" style="background-color: #F0BB18;width: 100%;min-height: 150px;display: grid;align-items: center;justify-content: center;">
+                        <p class="t_t" style="margin: auto;font-family: Calibri;font-size: 20px;text-align: center;color: #fff;">KST enjoys meaningful collaborations with a variety of partners in the private sector, government and civil society:</p>
                     </div>
-                    <div class="glful" style="display: none;grid-template-columns: 50% 50%;">
-                        <div style="text-align: center;">
-                            <img style="max-width: 100%;" src="./programme_overview/assets/Group 8.png" alt="">
-                        </div>
-                        <div style="text-align: center;">
-                            <img style="max-width: 100%;" src="./programme_overview/assets/Group 7.png" alt="">
-                        </div>
-                        <div style="text-align: center;">
-                            <img style="max-width: 100%;" src="./programme_overview/assets/Group 6.png" alt="">
-                        </div>
-                        <div style="text-align: right;">
-                            <img style="max-width: 100%;" src="./programme_overview/assets/Group 9.png" alt="">
-                        </div>
-                        <div style="text-align: left;">
-                            <img style="max-width: 100%;" src="./programme_overview/assets/Group 10.png" alt="">
+                    <div style="width: 100%;background-color: #fff;">
+                        <br> <br> <br>
+                        <div class="logos_display" style="width: 90%;margin: auto;display: grid;grid-template-columns: 20% 20% 20% 20%;justify-content: space-evenly;">
+                            <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-1@2x-50.dd6b5fd1.png" alt="" style="max-width: 100%;"></div>
+                            <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-2@2x-50.c4b6d3aa.png" alt="" style="max-width: 100%;"></div>
+                            <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-3@2x-50.e93dbc56.png" alt="" style="max-width: 100%;"></div>
+                            <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-4@2x-50.9f106904.png" alt="" style="max-width: 100%;"></div>
+                            <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-5@2x-50.4a14ee68.png" alt="" style="max-width: 100%;"></div>
+                            <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-6@2x-50.404f898f.png" alt="" style="max-width: 100%;"></div>
+                            <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-7@2x-50.3b2b45a6.png" alt="" style="max-width: 100%;"></div>
+                            <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-8@2x-50.e0e4f52a.png" alt="" style="max-width: 100%;"></div>
+                            <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-9@2x-50.f11e8ce6.png" alt="" style="max-width: 100%;"></div>
+                            <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-10@2x-50.2bd3b89e.png" alt="" style="max-width: 100%;"></div>
+                            <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-11@2x-50.5a3110fc.png" alt="" style="max-width: 100%;"></div>
                         </div>
                     </div>
-                </div> <br> <br> <br>
-                <div class="contain_yellow" style="background-color: #F0BB18;width: 100%;min-height: 150px;display: grid;align-items: center;justify-content: center;">
-                    <p class="t_t" style="margin: auto;font-family: Calibri;font-size: 20px;text-align: center;color: #fff;">KST enjoys meaningful collaborations with a variety of partners in the private sector, government and civil society:</p>
-                </div>
-                <div style="width: 100%;background-color: #fff;">
-                    <br> <br> <br>
-                    <div class="logos_display" style="width: 90%;margin: auto;display: grid;grid-template-columns: 20% 20% 20% 20%;justify-content: space-evenly;">
-                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-1@2x-50.dd6b5fd1.png" alt="" style="max-width: 100%;"></div>
-                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-2@2x-50.c4b6d3aa.png" alt="" style="max-width: 100%;"></div>
-                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-3@2x-50.e93dbc56.png" alt="" style="max-width: 100%;"></div>
-                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-4@2x-50.9f106904.png" alt="" style="max-width: 100%;"></div>
-                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-5@2x-50.4a14ee68.png" alt="" style="max-width: 100%;"></div>
-                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-6@2x-50.404f898f.png" alt="" style="max-width: 100%;"></div>
-                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-7@2x-50.3b2b45a6.png" alt="" style="max-width: 100%;"></div>
-                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-8@2x-50.e0e4f52a.png" alt="" style="max-width: 100%;"></div>
-                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-9@2x-50.f11e8ce6.png" alt="" style="max-width: 100%;"></div>
-                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-10@2x-50.2bd3b89e.png" alt="" style="max-width: 100%;"></div>
-                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-11@2x-50.5a3110fc.png" alt="" style="max-width: 100%;"></div>
-                    </div>
-                </div>
 
 
-            </div>
+                </div> -->
             <div class="body red_programme" style="background-image: url('./programme_overview/assets/bg_red.png');background-position: bottom;background-size: contain;background-repeat: no-repeat;display: none;">
                 <div style="width: 80%;margin: auto;" class="d_top">
                     <p class="t_t" style="font-size: 60px;color: #EE4326;font-weight: bold;padding: 0px;font-family: Myriad Pro;">DISTRICT WHOLE SCHOOL<br> DEVELOPMENT MODEL</p>
@@ -1032,7 +1046,7 @@
 
                     </div>
                     <div style="width: 80%;margin: auto;text-align: center;">
-                        <a href=""><img src="./programme_overview/assets/btn.png" alt=""></a>
+                        <a target="_blank" href="./content/KST Schools profiles.pdf"><img src="./programme_overview/assets/btn.png" alt=""></a>
                     </div>
                     <br> <br> <br> <br>
                 </div>
@@ -1047,7 +1061,7 @@
             <div class="top-menu">
                 <div class="top-section">
                     <div class="left">
-                        <a href="#1"> <img class="logo" src="../images/KST-New-Logo-removebg-preview.png" alt="" /></a>
+                        <a href="#1"> <img class="logo" src="./images/KST-New-Logo-removebg-preview.png" alt="" /></a>
                     </div>
                     <div class="right socials">
                         <a target="_blank" href="https://www.facebook.com/profile.php?id=100064591605382">
@@ -1070,36 +1084,39 @@
                     </div>
                 </div>
                 <div class="bottom-section">
-                    <img src="./our_people_assets/our_people.png" alt="" style="max-width: 90%" />
+                    <img src="./programme_review/assets/title.png" alt="" style="max-width: 90%" />
                 </div>
                 <div class="menu">
                     <div class="divs-menu" onclick="elementClickedTabLongover('one')">
                         <div class="div yellow one txt">
-                            GOVERNANCE <br /> STRUCTURE
+                            REVIEW
                         </div>
                         <div class="div triangle_one_re  act_t triangle_rw"></div>
                     </div>
                     <div class="divs-menu " onclick="elementClickedTabLongover( 'two') ">
                         <div class="div green two txt ">
-                            EXTERNAL <br /> ADVISORYBOARD <br /> (EAB)
+                            CURRICULUM AND LEADERSHIP DEVELOPMENT
+
                         </div>
                         <div class="div triangle_two_re triangle_two_pg triangle_rw "></div>
                     </div>
                     <div class="divs-menu " onclick="elementClickedTabLongover( 'three') ">
                         <div class="div red three txt ">
-                            BOARD OF <br /> TRUSTEES <br /> (BOT)
+                            INFRASTRUCTURE DEVELOPMENT
+
                         </div>
                         <div class="div triangle_three_re triangle_three_pg triangle_rw "></div>
                     </div>
                     <div class="divs-menu " onclick="elementClickedTabLongover( 'four') ">
                         <div class="div yellow three txt ">
-                            BOARD OF <br /> TRUSTEES <br /> (BOT)
+                            VISUAL PROGRAMME
+
                         </div>
                         <div class="div triangle_four_re triangle_one_pg triangle_rw "></div>
                     </div>
                     <div class="divs-menu " onclick="elementClickedTabLongover( 'five') ">
                         <div class="div green three txt ">
-                            BOARD OF <br /> TRUSTEES <br /> (BOT)
+                            PROGRAMME FOOTPRINT AND IMPACT
                         </div>
                         <div class="div triangle_five_re triangle_two_pg triangle_rw "></div>
                     </div>
@@ -1232,7 +1249,7 @@
             </div>
             <div class="body_rp yellow_pg yellow_pg_fourth " style="background-image: url( './programme_review/assets/yellow_bg.png');background-size: contain;background-position: bottom;background-repeat: no-repeat;display: none; ">
                 <div style="width: 80%;margin: auto; ">
-                    <p class="title_flux " style="color: #F0BB18;font-family: 'Calibri';font-weight: bold;font-size: 50px;margin: auto;padding-top: 50px; ">INFRASTRUCTURE <br> DEVELOPMENT PROGRESS</p>
+                    <p class="title_flux " style="color: #F0BB18;font-family: 'Calibri';font-weight: bold;font-size: 50px;margin: auto;padding-top: 50px; ">TRAINING OF <br> SYSTEM LEADERS <br> ON VISUAL SUPPORT </p>
                     <br> <br> <br>
                     <p style="font-size: 20px;font-family: Calibri;margin: auto; ">
                         In June 2021, Fezile Dabi attended a visual support training workshop comprising of 61 SBST officials from the Koppies, Parys, Kroonstad, Edenville and Viljoenskroon schools. With the aim to provide necessary skills and content knowledge that can be used
@@ -1280,7 +1297,7 @@
             <div class="top-menu">
                 <div class="top-section">
                     <div class="left">
-                        <a href="#1"> <img class="logo" src="../images/KST-New-Logo-removebg-preview.png" alt="" /></a>
+                        <a href="#1"> <img class="logo" src="./images/KST-New-Logo-removebg-preview.png" alt="" /></a>
                     </div>
                     <div class="right socials">
                         <a target="_blank" href="https://www.facebook.com/profile.php?id=100064591605382">
@@ -1312,7 +1329,9 @@
                     </div>
                 </div>
                 <div style="text-align: right;background-color: #F1BB2B;">
-                    <img style="width: 90%;" src="./communications/assets/second_section.png" alt="">
+                    <a target="_blank" href="https://www.bizcommunity.com/Article/196/498/225549.html#:~:text=%C3%97-,De%20Beers%20Group%2C%20Free%20State%20Education%20Department%20and%20KST%20unveil,multi-million%20school%20in%20Kroonstad&text=De%20Beers%20Group%20unveiled%20a,on%20Friday%2C%2026%20November%202021"
+                        href=""><img style="width: 90%;" src="./communications/assets/second_section.png" alt=""></a>
+
                 </div>
                 <div class="ghj" style="min-height: 500px;background-size: cover;text-align: right;overflow: visible;position: relative;">
                     <div style="position: relative;z-index: 1;">
@@ -1320,9 +1339,11 @@
                     </div>
                     <div class="mrtop" style="margin-top: -350px;background-color: #1DA261;position: relative;z-index: 0;">
                         <img src="./communications/assets/school.png" style="width: 100%;" alt="">
+
                     </div>
                     <div class="mr_bottom" style="margin-top: -400px;position: relative;z-index: 2;">
-                        <img src="./communications/assets/Group 35.png" style="width: 100%;" alt="">
+                        <a target="_blank" href="https://www.sanews.gov.za/south-africa/free-state-leads-pack-857-pass-rate"><img src="./communications/assets/Group 35.png" style="width: 100%;" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -1334,7 +1355,105 @@
             <div class="top-menu">
                 <div class="top-section">
                     <div class="left">
-                        <a href="#1"> <img class="logo" src="../images/KST-New-Logo-removebg-preview.png" alt="">
+                        <a href="#1"> <img class="logo" src="./images/KST-New-Logo-removebg-preview.png" alt="" /></a>
+                    </div>
+                    <div class="right socials">
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100064591605382">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                          d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
+                        />
+                      </svg>
+                        </a>
+                        <a target="_blank" href="https://twitter.com/KST_DWSD">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                          d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"
+                        />
+                      </svg>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="bottom-section">
+                    <img src="./reports/Group 1.png" alt="" style="max-width: 90%" />
+                </div>
+                <div style="min-height: 40px;background-color: #F0BB18;width: 100%;"></div>
+            </div>
+            <br>
+            <div class="body_y yellow_programme_e" style="background-image: url('./programme_overview/assets/\(HR\)KagisoTrust-BNSDPLimpopoLaunch-20190306-051.png');background-position: bottom;background-size: cover;background-repeat: no-repeat;">
+                <div style="width: 100%;margin: auto;margin-top: -20px;padding-top: 50px;width: 80%;margin-left: auto;margin-right: auto;" class="d_top">
+                    <!-- <p class="t_t" style="font-size: 60px;color: #000000;font-weight: bold;padding: 0px;font-family: Myriad Pro;margin: 0px;">FUNDRAISING AND PARTNERSHIPS</p> -->
+                    <br> <br> <br> <br>
+                    <div class="gl" style="display: grid;grid-template-columns: 33.33% 33.33% 33.33%;">
+                        <div style="text-align: center;">
+                            <img style="max-width: 100%;" src="./programme_overview/assets/Group 8.png" alt="">
+                        </div>
+                        <div style="text-align: center;">
+                            <img style="max-width: 100%;" src="./programme_overview/assets/Group 7.png" alt="">
+                        </div>
+                        <div style="text-align: center;">
+                            <img style="max-width: 100%;" src="./programme_overview/assets/Group 6.png" alt="">
+                        </div>
+                    </div>
+                    <br> <br>
+                    <div class="gl" style="display: grid;grid-template-columns: 50% 50%;">
+                        <div style="text-align: right;">
+                            <img style="max-width: 100%;" src="./programme_overview/assets/Group 9.png" alt="">
+                        </div>
+                        <div style="text-align: left;">
+                            <img style="max-width: 100%;" src="./programme_overview/assets/Group 10.png" alt="">
+                        </div>
+
+                    </div>
+                    <div class="glful" style="display: none;grid-template-columns: 50% 50%;">
+                        <div style="text-align: center;">
+                            <img style="max-width: 100%;" src="./programme_overview/assets/Group 8.png" alt="">
+                        </div>
+                        <div style="text-align: center;">
+                            <img style="max-width: 100%;" src="./programme_overview/assets/Group 7.png" alt="">
+                        </div>
+                        <div style="text-align: center;">
+                            <img style="max-width: 100%;" src="./programme_overview/assets/Group 6.png" alt="">
+                        </div>
+                        <div style="text-align: right;">
+                            <img style="max-width: 100%;" src="./programme_overview/assets/Group 9.png" alt="">
+                        </div>
+                        <div style="text-align: left;">
+                            <img style="max-width: 100%;" src="./programme_overview/assets/Group 10.png" alt="">
+                        </div>
+                    </div>
+                </div> <br> <br> <br>
+                <div class="contain_yellow" style="background-color: #F0BB18;width: 100%;min-height: 150px;display: grid;align-items: center;justify-content: center;">
+                    <p class="t_t" style="margin: auto;font-family: Calibri;font-size: 20px;text-align: center;color: #fff;">KST enjoys meaningful collaborations with a variety of partners in the private sector, government and civil society:</p>
+                </div>
+                <div style="width: 100%;background-color: #fff;">
+                    <br> <br> <br>
+                    <div class="logos_display" style="width: 90%;margin: auto;display: grid;grid-template-columns: 20% 20% 20% 20%;justify-content: space-evenly;">
+                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-1@2x-50.dd6b5fd1.png" alt="" style="max-width: 100%;"></div>
+                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-2@2x-50.c4b6d3aa.png" alt="" style="max-width: 100%;"></div>
+                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-3@2x-50.e93dbc56.png" alt="" style="max-width: 100%;"></div>
+                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-4@2x-50.9f106904.png" alt="" style="max-width: 100%;"></div>
+                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-5@2x-50.4a14ee68.png" alt="" style="max-width: 100%;"></div>
+                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-6@2x-50.404f898f.png" alt="" style="max-width: 100%;"></div>
+                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-7@2x-50.3b2b45a6.png" alt="" style="max-width: 100%;"></div>
+                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-8@2x-50.e0e4f52a.png" alt="" style="max-width: 100%;"></div>
+                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-9@2x-50.f11e8ce6.png" alt="" style="max-width: 100%;"></div>
+                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-10@2x-50.2bd3b89e.png" alt="" style="max-width: 100%;"></div>
+                        <div style="text-align: center;"><img src="./programme_overview/assets/logos/logo-11@2x-50.5a3110fc.png" alt="" style="max-width: 100%;"></div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="page9 wanky_page" data-pageid="9">
+            <div class="top-menu">
+                <div class="top-section">
+                    <div class="left">
+                        <a href="#1"> <img class="logo" src="./images/KST-New-Logo-removebg-preview.png" alt="">
                         </a>
                     </div>
                     <div class="right socials">
@@ -1361,7 +1480,7 @@
                         <p class="title_finance">FINANCIAL STATEMENTS </p>
                         <p class="sub_t_finance">For the year ended 31 March 2022</p>
                         <div>
-                            <a href="" style="color: #fff;font-weight: bold;text-decoration: none;"><img src="./financials/assets/btn.png" alt=""></a>
+                            <a target="_blank" href="./content/KST Trust 2021-22 Financials.pdf" style="color: #fff;font-weight: bold;text-decoration: none;"><img src="./financials/assets/btn.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -1390,10 +1509,11 @@
                         equity, statement of cash flows, notes to the financial statements and related information. The auditors are responsible to report on the fair presentation of the financial statements. The financial statements have been prepared
                         in accordance with International Financial Reporting Standards (IFRS). <br> <br> The trustees are also responsible for the trust's system of internal financial controls. These are designed and implemented
                         by management to provide reasonable, but not absolute, assurance as to the integrity and reliability of the financial statements, and to adequately safeguard, verify and maintain accountability of assets, and to prevent and detect
-                        misstatement and loss. Nothing has come to the attention of the trustees to indicate that any material breakdown in the functioning of these controls, procedures and systems has occurred during the period under review. <br> <br>                        The preparation and presentation of financial statements in conformity with International Financial Reporting Standards (IFRS) requires management to make estimates and assumptions that affect the reported amounts of assets and
-                        liabilities at the date of the financial statements and the reported expenses during the reporting period. Actual results may differ from those estimates. <br> <br> The trustees have a reasonable expectation that the trust has
-                        adequate resources to continue in operational existence for the foreseeable future. For this reason, they continue to adopt the going concern basis in preparing the financial statements. <br> <br> The financial statements as set
-                        out on pages 8 to 24 have been audited by independent auditors, PricewaterhouseCoopers Incorporated, which was given unrestricted access to all financial controls and related data, including minutes of all meetings of trustees,
+                        misstatement and loss. Nothing has come to the attention of the trustees to indicate that any material breakdown in the functioning of these controls, procedures and systems has occurred during the period under review.
+                        <br> <br> The preparation and presentation of financial statements in conformity with International Financial Reporting Standards (IFRS) requires management to make estimates and assumptions that affect the reported amounts of
+                        assets and liabilities at the date of the financial statements and the reported expenses during the reporting period. Actual results may differ from those estimates. <br> <br> The trustees have a reasonable expectation that the
+                        trust has adequate resources to continue in operational existence for the foreseeable future. For this reason, they continue to adopt the going concern basis in preparing the financial statements. <br> <br> The financial statements
+                        as set out on pages 8 to 24 have been audited by independent auditors, PricewaterhouseCoopers Incorporated, which was given unrestricted access to all financial controls and related data, including minutes of all meetings of trustees,
                         the board of trustees and committees of the board. The trustees believe that all representations made to the independent auditors during the audit are valid and appropriate. <br> <br> <br> <strong> APPROVAL OF THE ANNUAL FINANCIAL STATEMENTS</strong>                        <br> The financial statements of the trust for the year ended 31 March 2022, which are set out on pages 8 to 24 were approved by the board of trustees on 30 November 2022 and are signed on its behalf by:
                     </p>
                 </div>
@@ -1459,5 +1579,32 @@
 <script src="./programme_overview/programme.js"></script>
 <script src="./programme_review/menuScript.js"></script>
 <script src="./financials/menu_acc_new.js"></script>
+<script src="./animations.jquery.js"></script>
+<style>
+    @font-face {
+        font-family: Calibri;
+        src: url('./fonts/calibrib_bold.ttf');
+        font-weight: bold;
+    }
+    
+    @font-face {
+        font-family: Calibri;
+        src: url('./fonts/calibril_light.ttf');
+        font-weight: lighter;
+    }
+    
+    @font-face {
+        font-family: Calibri;
+        src: url('./fonts/Calibri.ttf');
+    }
+    
+    * {
+        font-family: 'Calibri'!important;
+    }
+    
+    .full_img_new_latst {
+        width: 100%!important;
+    }
+</style>
 
 </html>
